@@ -7,7 +7,7 @@ Minishell is a lightweight Unix-like shell implemented in C, designed to provide
 
 We have written this with certain requirements and a limitations, like a limited amount of allowed functions and a norm we had to comply to (like no 'for' loops). This meant we had to build most things from scratch and from a very low-level.
 
-We worked on it as a group project with @rushmaverick, @jestebanpelaez18 and @composerjunhee. We all had a part in creating the completed project, after which we teached eachother our parts and made sure that everyone understood exactly what is going on. My main focus of the project was the architecture, group communication, pipes and bughunting.
+I worked on it as a group project in collaboration with [Rasmus](https://github.com/RushMaverick) [Juan](https://github.com/jestebanpelaez18) and [Jun](https://github.com/composerjunhee). We all had a part in creating the completed project, after which we teached eachother our parts and made sure that everyone understood exactly what is going on. My main focus: Lead architecture design, group communication, pipe implementation, and bug hunting.
 
 ## Features
 
@@ -32,3 +32,10 @@ We worked on it as a group project with @rushmaverick, @jestebanpelaez18 and @co
 
    ```shell
    git clone https://github.com/yourusername/minishell.git
+   ```
+   ```
+   git clone https://github.com/yourusername/minishell.git
+   ```
+   ```shell
+   git clone https://github.com/yourusername/minishell.git
+   ```
