@@ -41,7 +41,7 @@ To run Minishell, ensure you have the following prerequisites:
 1. Clone the Minishell repository:
 
 ```shell
-git clone https://github.com/nicktvdd/minishell.git
+git clone https://github.com/Nicktvdd/minishell.git
 ```
 
 2. Build the Minishell executable:
