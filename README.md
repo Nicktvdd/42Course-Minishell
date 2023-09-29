@@ -61,6 +61,6 @@ You are now ready to explore Minishell's capabilities. Experiment with basic she
 
 # Contact
 
-If you have any questions, feedback, or inquiries, feel free to reach out to me at 'nicktvdd@gmail.com'.
+If you have any questions, feedback, or inquiries, feel free to reach out to me at nicktvdd@gmail.com.
 
 Happy coding!
