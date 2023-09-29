@@ -20,14 +20,14 @@ I worked on it as a group project in collaboration with [Rasmus](https://github.
 - **Inhibitors:** It includes dealing with inhibitors like `" " and ' '`.
 
 -  **History management:** In the shell it remembers all the used commands, you can browse the history with the arrow keys.
-- **Inhibitors:** It includes dealing with inhibitors like `" " and ' '`.
 
+- **Inhibitors:** It includes dealing with inhibitors like `" " and ' '`.
 
 ## Getting Started
 
 ### Prerequisites
 
-- C compiler (e.g., GCC)
+- C compiler (e.g. GCC)
 - Unix-like operating system (Linux or macOS)
 
 ### Installation
