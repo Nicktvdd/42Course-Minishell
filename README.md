@@ -31,11 +31,21 @@ I worked on it as a group project in collaboration with [Rasmus](https://github.
 1. Clone the Minishell repository:
 
    ```shell
-   git clone https://github.com/yourusername/minishell.git
+   git clone https://github.com/nicktvdd/minishell.git
    ```
+   Build the Minishell executable:
    ```
-   git clone https://github.com/yourusername/minishell.git
+   cd minishell
+   make
    ```
-   ```shell
-   git clone https://github.com/yourusername/minishell.git
+   
+   Usage
+   Run Minishell:
    ```
+   ./minishell
+   ```
+   You can now start using Minishell. Try basic shell commands, piping and redirection.
+
+If you have any questions or feedback, feel free to reach out to me at nicktvdd@gmail.com
+
+Happy coding!
