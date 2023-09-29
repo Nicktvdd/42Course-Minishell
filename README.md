@@ -50,7 +50,7 @@ I worked on it as a group project in collaboration with [Rasmus](https://github.
 You can now start using Minishell. Try basic shell commands, piping and redirection.
 In no way should this shell ever crash (e.g. segmentation fault or bus error), leak memory, freeze or get stuck in a loop. Please report any such issues to us if you find them!
 
-## Contact
+# Contact
 
 If you have any questions or feedback, feel free to reach out to me at nicktvdd@gmail.com
 
