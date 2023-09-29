@@ -1,5 +1,5 @@
 # MiniShell
-:white_check_mark: Project successfully completed with a remarkable score of 101/100!
+:white_check_mark: Project successfully completed with a score of 101/100!
 
 ## Introduction
 
