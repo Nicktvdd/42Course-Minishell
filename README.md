@@ -1,57 +1,66 @@
 # MiniShell
-:white_check_mark: Project completed with 101/100 points
+:white_check_mark: Project successfully completed with a remarkable score of 101/100!
 
-# Introduction
+## Introduction
 
-Minishell is a lightweight Unix-like shell implemented in C, designed to provide a basic command-line interface to users. It is one of the larger projects done in the 42 curriculum. Minishell allows to relive the challenges of the past, experiencing firsthand the problems faced when Windows was non-existent. Dive into the realm of interactive command lines, understanding the essence of this fundamental form of communication. With Minishell, we are exploring the past and the art of command-line mastery.
+Minishell is a lightweight Unix-like shell meticulously crafted in C, offering users a fundamental command-line interface. Developed as part of the demanding 42 curriculum, Minishell encapsulates the essence of interactive command lines, taking you back to the era when Windows was but a distant dream. Dive into the world of command-line mastery and experience the challenges of a bygone era with Minishell.
 
-We have written this with requirements and limitations in the 42 norm, like a limited amount of allowed library functions and other exclusions like no 'for' loops. This meant we had to build most things from scratch and from a very low-level. We have used [Bash](https://www.gnu.org/software/bash/) as a reference.
+This project adheres to the stringent requirements and limitations of the 42 norm, which entails a restricted set of allowed library functions and the absence of constructs like 'for' loops. Consequently, we constructed most components from scratch, embracing a low-level approach. Our guiding reference throughout this endeavor was [Bash](https://www.gnu.org/software/bash/).
 
-I worked on it as a group project in collaboration with [Rasmus](https://github.com/RushMaverick), [Juan](https://github.com/jestebanpelaez18) and [Jun](https://github.com/composerjunhee). We all had a part in creating the completed project, after which we teached eachother our parts and made sure that everyone understood exactly what is going on. My main focus: Lead architecture design, group communication, pipe implementation, and bug hunting.
+Minishell was a collaborative effort, with contributions from [Rasmus](https://github.com/RushMaverick), [Juan](https://github.com/jestebanpelaez18), [Jun](https://github.com/composerjunhee), and myself. We collectively tackled the project, ensured a comprehensive understanding of each facet, and conducted knowledge-sharing sessions to enhance our grasp of the intricate workings.
 
-## Features
+**My primary focus areas:**
+- Leading architectural design
+- Facilitating group communication
+- Implementing the pipe functionality
+- Vigilant bug hunting
 
-- **Basic Shell Commands:** Minishell supports common shell commands such as `ls`, `cd`, `pwd`, `echo`, and `exit`.
+## Key Features
 
-- **Piping and Redirection:** You can use pipes (`|`) to chain commands and redirection (`>`, `>>`, `<`) to manage input and output streams.
+- **Comprehensive Shell Commands:** Minishell boasts support for a wide array of essential shell commands, including `ls`, `cd`, `pwd`, `echo`, and `exit`.
 
-- **Environment and Internal Shell Variables:** Minishell allows you to work with environment variables like `PATH` and user-defined variables with `export, set, unset`.
+- **Piping and Stream Redirection:** Seamlessly chain commands using pipes (`|`) and manage input and output streams with redirection operators (`>`, `>>`, `<`).
 
-- **Inhibitors:** It includes dealing with inhibitors like `" " and ' '`.
+- **Environment and Shell Variables:** Manipulate environment variables like `PATH` and define user-specific variables using `export`, `set`, and `unset`.
 
--  **History management:** In the shell it remembers all the used commands, you can browse the history with the arrow keys.
+- **Inhibitors Handling:** Minishell efficiently deals with inhibitors, both single (`' '`) and double (`" "`) quotation marks.
 
-- **Inhibitors:** It includes dealing with inhibitors like `" " and ' '`.
+- **History Management:** The shell diligently records all executed commands, allowing users to navigate command history using arrow keys.
 
 ## Getting Started
 
 ### Prerequisites
 
-- C compiler (e.g. GCC)
+To run Minishell, ensure you have the following prerequisites:
+
+- C compiler (e.g., GCC)
 - Unix-like operating system (Linux or macOS)
 
 ### Installation
 
 1. Clone the Minishell repository:
 
-   ```shell
-   git clone https://github.com/nicktvdd/minishell.git
-   ```
+```shell
+git clone https://github.com/nicktvdd/minishell.git
+```
+
 2. Build the Minishell executable:
-   ```
-   cd minishell
-   make
-   ```
-3. Usage
-   Run Minishell:
-   ```
-   ./minishell
-   ```
-You can now start using Minishell. Try basic shell commands, piping and redirection.
-In no way should this shell ever crash (e.g. segmentation fault or bus error), leak memory, freeze or get stuck in a loop. Please report any such issues to us if you find them!
+
+ ```
+cd minishell
+make
+ ```
+
+## Usage
+
+Run Minishell:
+```
+./minishell
+```
+You are now ready to explore Minishell's capabilities. Experiment with basic shell commands, piping, and redirection. Minishell is rigorously designed to be robust, free from crashes (e.g., segmentation faults or bus errors), memory leaks, freezes, or infinite loops. If you encounter any such issues, please report them to us promptly.
 
 # Contact
 
-If you have any questions or feedback, feel free to reach out to me at nicktvdd@gmail.com
+If you have any questions, feedback, or inquiries, feel free to reach out to me at 'nicktvdd@gmail.com'.
 
 Happy coding!
