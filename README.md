@@ -5,7 +5,7 @@
 
 Minishell is a lightweight Unix-like shell implemented in C, designed to provide a basic command-line interface to users. It is one of the larger projects done in the 42 curriculum. Minishell allows to relive the challenges of the past, experiencing firsthand the problems faced when Windows was non-existent. Dive into the realm of interactive command lines, understanding the essence of this fundamental form of communication. With Minishell, we are exploring the past and the art of command-line mastery.
 
-We have written this with certain requirements and a limitations, like a limited amount of allowed functions and a norm we had to comply to (like no 'for' loops). This meant we had to build most things from scratch and from a very low-level. We have used [Bash](https://www.gnu.org/software/bash/) as a reference.
+We have written this with requirements and limitations in the 42 norm, like a limited amount of allowed library functions and other exclusions like no 'for' loops. This meant we had to build most things from scratch and from a very low-level. We have used [Bash](https://www.gnu.org/software/bash/) as a reference.
 
 I worked on it as a group project in collaboration with [Rasmus](https://github.com/RushMaverick), [Juan](https://github.com/jestebanpelaez18) and [Jun](https://github.com/composerjunhee). We all had a part in creating the completed project, after which we teached eachother our parts and made sure that everyone understood exactly what is going on. My main focus: Lead architecture design, group communication, pipe implementation, and bug hunting.
 
