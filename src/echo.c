@@ -42,9 +42,6 @@ void	n_function(char **argv)
 
 int	ft_echo(char **argv)
 {
-	int	i;
-
-	i = 0;
 	if (ft_strlen(*argv) > 1)
 		n_function(argv);
 	return (0);

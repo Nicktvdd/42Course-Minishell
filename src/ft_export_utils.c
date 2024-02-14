@@ -48,7 +48,7 @@ int	match_env_key(char *arg, t_data *data, int index, int len)
 	i = index;
 	while ((data->env[i]) && ft_strncmp(arg, data->env[i], len) != 0)
 		i++;
-	if (data->env[i] == '\0')
+	if (data->env[i] == NULL)
 		envdup_plusone(data);
 	return (i);
 }

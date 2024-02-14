@@ -78,15 +78,11 @@ char	**modify_env_var(t_data *data, char *arg, int len)
 
 char	**handle_args(char *arg, t_data *data)
 {
-	int		index;
 	int		len;
-	int		key_flag;
 	char	*temp;
 
 	if (!arg || !data->env)
 		return (NULL);
-	index = 0;
-	key_flag = 0;
 	len = ft_keylen(arg);
 	temp = ft_strdup(arg);
 	if (is_first_alpha(arg) == 1)
@@ -105,10 +101,8 @@ char	**handle_args(char *arg, t_data *data)
 int	ft_export(char **arg, t_data *data)
 {
 	int	i;
-	int	len;
 
 	i = 0;
-	len = 0;
 	if (!arg || (arg[i] && (ft_strncmp(arg[i], "export", 7) != 0)))
 		return (1);
 	i++;

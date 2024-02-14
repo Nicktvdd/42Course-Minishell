@@ -26,11 +26,6 @@ int	get_env_var(char *arg, char **env, int index, int len)
 
 static	void	remove_env_var(char **e_cpy, int index)
 {
-	char	*last;
-	int		i;
-
-	last = NULL;
-	i = 0;
 	free(e_cpy[index]);
 	while (e_cpy[index + 1])
 	{
