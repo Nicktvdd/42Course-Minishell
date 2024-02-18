@@ -74,7 +74,7 @@ typedef struct s_global
 	int					heredoc_signal;
 }						t_global;
 
-t_global				g_var;
+/* extern  */t_global				g_var;
 
 /*Error msg and free*/
 void					error_msg(char *msg);
