@@ -1,6 +1,9 @@
 # MiniShell
 :white_check_mark: Project successfully completed with a score of 101/100!
 
+![minishell](https://github.com/Nicktvdd/MiniShell/assets/5775657/100f177b-6470-4252-aadd-8f3014300a2f)
+
+
 ## Introduction
 
 Minishell is a lightweight Unix-like shell meticulously crafted in C, offering users a fundamental command-line interface. Developed as part of the demanding 42 curriculum, Minishell encapsulates the essence of interactive command lines, taking you back to the era when Windows was but a distant dream. Dive into the world of command-line mastery and experience the challenges of a bygone era with Minishell.
